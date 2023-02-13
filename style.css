@@ -1,0 +1,65 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	margin:0px;
+}
+header {
+	width: 100%;
+	height: 80px;
+	background-color: #223f61;
+}
+main {
+	width: 65%;
+	height: 920px;
+	padding: 30px;
+	background-color: #f5f7fa;
+	float: left;
+}
+aside {
+	width: 35%;
+	height: 920px;
+	background-color: #b4c6d6;
+	float: left;
+}
+/* hieronder alle css voor de navigatie links */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-color: #f1f1f1;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li a.active {
+  background-color: #FFD0A3;
+  color: white;
+}
+
+li a:hover:not(.active) {
+  background-color: #FFE4C7;
+  color: black;
+}
+
+footer {
+	width: 100% ;
+	height: 80px;
+	background-color: #7c7d7d;
+	clear: both;
+
+}
+
+/* hieronder alle css voor de navigatie bovenrechts */
+
+
+table {
+	
+
+} 
